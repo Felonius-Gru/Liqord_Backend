@@ -1,0 +1,149 @@
+/*Blog Large
+------------------------------------*/
+
+/*Blog Page*/
+
+.blog-content ol, .blog-content ul {
+    margin: .4em 1.2em;
+}
+
+.blog h2{
+	color: #555;
+}
+
+.blog-title{
+	font-size: 1.8em;
+	margin-bottom: 20px;	
+}
+
+.blog h2 a {
+	line-height: 32px;
+}
+
+.blog h2 a:hover {
+	text-decoration: none;
+}
+
+.blog h3 {
+	color: #555;
+	font-size: 1.5em;
+    line-height: 1.3;
+	font-weight: 900;
+}
+
+.blog h4 {
+	color: #555;
+	font-size: 1.3em;
+    line-height: 1.1;	
+	font-weight: 900;
+}
+
+h3, h4 {
+    padding: 1.5em 0 .5em;
+}
+
+/*Blog Content Tags*/
+.blog-post-tags {
+	padding: 5px 0 8px;
+	margin-bottom: 30px;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+}
+
+.blog .blog-post-tags ul {
+	margin-bottom: 0;
+}
+
+.blog .blog-post-tags li {
+	font-size: .9em;
+	margin-bottom: 0;
+}
+
+.blog-post-tags li i {
+	color: #777;
+}
+
+.blog-post-tags ul.blog-info {
+	color: #eee;
+	margin-bottom: 3px;
+}
+
+.blog-post-tags ul.blog-tags a {
+	color: #555;
+	font-size: .9em;
+	display: inline;
+	padding: 3px 7px;
+	margin-right: 2px;
+	background: #f4f4f4;
+}
+
+.blog-post-tags ul.blog-tags a:hover {
+	background: #428bca;
+}
+
+/*Blog Item Page
+------------------------------------*/
+.blog-item .media img {
+	top: 3px;
+	width: 54px;
+	height: 54px;
+	position: relative;
+}
+
+.post-comment h3,
+.blog-item .media h3 {
+	color: #72c02c;
+	font-size: 21px;
+	margin-bottom: 25px;
+}
+
+.blog-item .media h4.media-heading {
+	color: #555;
+	font-size: 17px;
+	position: relative;
+}
+
+.blog-item .media h4.media-heading span {
+	top: 3px; 
+	right: 0;
+	color: #777;
+	font-size: 12px;
+	position: absolute;
+}
+
+.blog-item .media h4.media-heading span a {
+	color: #72c02c;
+}
+
+/*Blog Medium
+------------------------------------*/
+.blog-medium .blog-info li {
+	color: #777;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	.blog-medium img {
+		margin-bottom: 20px;
+	}
+}
+
+/*Blog Full Wisth
+------------------------------------*/
+.blog-full-width ul.blog-info {
+	margin-bottom: 0;
+}
+
+/*Added by Chris */
+/*.blog p{font-size: 1em; margin-bottom: 1.5em;}	
+/*.blog li{font-size: 1em; margin-bottom: .5em;}*/	
+/*.blog ul, ol{margin-bottom: 1.5em}*/
+.blog blockquote{margin-bottom: 2em; margin-top: 2em}
+.blog blockquote p{font-size: 1.2em}
+.blog iframe{border: 0px; width: 100%;}
+.blog img{max-width: 100%;}
+.blog-img{position: relative; margin-bottom: 2em;}
+.blog :not(.blog-img) > img {position: relative; margin-bottom: 1.2em;}
+.blog .syntaxhighlighter{margin-bottom: 35px; !important}
+
+.sidebar{font-size: .8em}
